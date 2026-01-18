@@ -1,3 +1,5 @@
 library_data.json
 iPod_Ready_Parts/*
 temp_chunk.m4b
+.env
+.venv/

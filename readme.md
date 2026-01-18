@@ -29,7 +29,7 @@ I wrote this script to:
 
 1. Install [Libation](https://github.com/rmcrackan/Libation) and configure it to work with your Audible account,
 2. Configure the path of your Libation CLI in `main.py`,
-3. Run main.py.
+3. Run main.py with `uv run main.py`.
 
 It will find the books in the library folder you configured in Libation, make Libation download the new books you purchased, then split the downloaded books with correct metadata and chapter names embedded.
 
