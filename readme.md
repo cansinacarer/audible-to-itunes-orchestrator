@@ -9,8 +9,7 @@ iPod Classic, even the 7th gen, struggles playing single file audiobooks longer 
 - [Libation](https://github.com/rmcrackan/Libation) is the best solution I've found, but it can either create one file per chapter, or one file per book. You cannot specify the length you want per file.
 - [AaxAudioConverter](https://github.com/audiamus/AaxAudioConverter) can embed chapter names into split books, but you have to give it a metadata file with chapter name and timings.
 - [BookLibConnect](https://github.com/audiamus/BookLibConnect) can download metadata for a single file book, but fails on multi-part downloads because Audible is deprecating it.
-- Custom split only if you have to bring a custom made metadata file with chapter offsets for your split files.
-- BookLibConnect
+- Custom split with ffmpeg only works if you have to bring a custom made metadata file with chapter offsets for your split files.
 
 ## My Solution
 
