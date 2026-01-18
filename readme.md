@@ -20,6 +20,17 @@ I built this iPod classic with a Bluetooth screen and MagSafe charging with [my 
 I wrote this script to:
 
 - Make Libation download the books via its CLI,
-- Split them into <10 hours long files
+- Split them into <10 hours long files, if needed,
   - with chapter names preserved and correctly embedded on separated files,
-  - without splitting mid-chapter.
+  - without splitting mid-chapter,
+  - naming each file with part numbers.
+
+## Getting Started
+
+1. Install [Libation](https://github.com/rmcrackan/Libation) and configure it to work with your Audible account,
+2. Configure the path of your Libation CLI in `main.py`,
+3. Run main.py.
+
+It will find the books in the library folder you configured in Libation, make Libation download the new books you purchased, then split the downloaded books with correct metadata and chapter names embedded.
+
+You can then add the output folder of this script into your iTunes library.
