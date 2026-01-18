@@ -1,0 +1,22 @@
+# Audible to iTunes Orchestrator
+
+## Problem
+
+iPod Classic, even the 7th gen, struggles playing single file audiobooks longer than 12-13 hours without a compromise in bitrate. I don't like creating a file for each chapter, which clutters my library. So I had to have my audiobooks split into fewest parts possible.
+
+## Existing Solutions That Didn't Work Out (Like a literature review 😂)
+
+- [Libation](https://github.com/rmcrackan/Libation) is the best solution I've found, but it can either create one file per chapter, or one file per book. You cannot specify the length you want per file.
+- [AaxAudioConverter](https://github.com/audiamus/AaxAudioConverter) can embed chapter names into split books, but you have to give it a metadata file with chapter name and timings.
+- [BookLibConnect](https://github.com/audiamus/BookLibConnect) can download metadata for a single file book, but fails on multi-part downloads because Audible is deprecating it.
+- Custom split only if you have to bring a custom made metadata file with chapter offsets for your split files.
+- BookLibConnect
+
+## My Solution
+
+I wrote this script to:
+
+- Make Libation download the books via its CLI,
+- Split them into <10 hours long files
+  - with chapter names preserved and correctly embedded on separated files,
+  - without splitting mid-chapter.
