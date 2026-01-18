@@ -6,7 +6,7 @@ iPod Classic, even the 7th gen, struggles playing single file audiobooks longer 
 
 I built this iPod classic with a Bluetooth screen and MagSafe charging with [my custom design](https://www.thingiverse.com/thing:7272815), but could't play my Audiobooks properly 😕
 
-<img width="300px" src="./img/large_display_combined-hero.webp">
+<img width="300px" src="./img/ipod.webp">
 
 ## Existing Solutions That Didn't Work Out
 
