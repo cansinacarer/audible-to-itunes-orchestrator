@@ -43,15 +43,21 @@ You can then add the output folder of this script into your iTunes library.
 
 ![processing view](./img/screenshot-1.png)
 
+---
+
 ### Graceful exit and cleanup
 
 ![graceful exit and cleanup](./img/screenshot-2.png)
+
+---
 
 ### Skipping the books that were previously processed and the shorter books which don't require processing
 
 See how the book 'Dust' is skipped:
 
 ![skips](./img/screenshot-3.png)
+
+---
 
 ### Handling of a stop request and resuming later by running the script again
 
