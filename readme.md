@@ -4,7 +4,11 @@
 
 iPod Classic, even the 7th gen, struggles playing single file audiobooks longer than 12-13 hours without a compromise in bitrate. I don't like creating a file for each chapter, which clutters my library. So I had to have my audiobooks split into fewest parts possible.
 
-## Existing Solutions That Didn't Work Out (Like a literature review 😂)
+I built this iPod classic with a Bluetooth screen and MagSafe charging with [my custom design](https://www.thingiverse.com/thing:7272815), but could't play my Audiobooks properly 😕
+
+<img width="300px" src="https://cdn.thingiverse.com/assets/23/22/64/dc/20/large_display_combined-hero.png">
+
+## Existing Solutions That Didn't Work Out (like a literature review 😂)
 
 - [Libation](https://github.com/rmcrackan/Libation) is the best solution I've found, but it can either create one file per chapter, or one file per book. You cannot specify the length you want per file.
 - [AaxAudioConverter](https://github.com/audiamus/AaxAudioConverter) can embed chapter names into split books, but you have to give it a metadata file with chapter name and timings.
